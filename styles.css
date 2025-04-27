@@ -60,9 +60,9 @@
     background-color: #0796A4;
 }
 
-@media(min-width: 768){
-    .item{
-        grid-template-columns: 1fr;
+@media(min-width: 768px){
+    .middle{
+        grid-template-columns: repeat(3, 1fr);
     }
     
 }
